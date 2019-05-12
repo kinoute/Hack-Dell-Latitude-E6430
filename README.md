@@ -1,7 +1,7 @@
 # Dell Latitude E6430 Hackintosh
 
 <p style="float:left">
-    <img src="https://raw.githubusercontent.com/kinoute/Hack-Dell-Latitude-E6430/master/Pictures/Laptop.jpg" alt="" width="300" />
+    <img src="https://raw.githubusercontent.com/kinoute/Hack-Dell-Latitude-E6430/master/Pictures/Laptop.jpg" alt="" width="500" />
     <img src="https://raw.githubusercontent.com/kinoute/Hack-Dell-Latitude-E6430/master/Pictures/system.png" alt="" width="500" />
 <p>
 
