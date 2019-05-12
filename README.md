@@ -109,6 +109,18 @@ You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace
 
 ## Benchmarks
 
+![Benchmarks](https://raw.githubusercontent.com/kinoute/Hack-Dell-Latitude-E6430/master/Pictures/benchmark.png)
+
+https://browser.geekbench.com/v4/cpu/13106603
+
+## The Beast
+
 ![The Beast](https://raw.githubusercontent.com/kinoute/Hack-Dell-Latitude-E6430/master/Pictures/Laptop.jpg)
+
+## Credits
+
+* Thanks to Slice on InsanelyMac for his [High Sierra EFI Folder](https://www.insanelymac.com/forum/topic/327824-dell-latitude-e6430-full-solution/)
+* Thanks to Jake Lo on OSXLatitude for [his guide](https://osxlatitude.com/forums/topic/8506-dell-latitude-inspiron-precision-vostro-xps-clover-guide) for laptops
+
 
 
