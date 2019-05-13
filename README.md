@@ -82,6 +82,8 @@ Once we have a USB Installer, we need to install Clover on it, with our `config.
 
 Download my EFI Folder from this repo and copy it (replace, not merge) to your USB Installer existing EFI Folder. It will replace your EFI folder that was created by Clover during the installation, copy all the necessary kext files and my `config.plist` file as well.
 
+**Note:** I use the [Clover-Minimal Theme](https://github.com/al3xtjames/clover-theme-minimal) in my `config.plist` so if you only download my `config.plist`, be sure to either install this theme or change it to something you already have.
+
 ## macOS Mojave Installation
 
 Reboot your Laptop with the USB Installer stick plugged in. Press `F12`, choose `UEFI`, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
