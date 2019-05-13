@@ -38,7 +38,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 
 ### Flashing your BIOS
 
-First thing you need to do is to flash your BIOS if you're running an old one like A02/A03. I flashed mine to the A12 version which seems to work fine. If you already have a recent version superior to mine, I can't guarantee that my install will work for you. Some people had to downgrade first to A02/A03 then flash to A12 in order to install.
+First thing you need to do is to flash your BIOS if you're running an old one like A02/A03. I flashed mine to the A12 version which seems to work fine. If you already have a recent version superior to mine, I can't guarantee that my instructions will work for you. Some people had to downgrade first to A02/A03 then flash to A12 in order to install.
 
 You can find the A12 BIOS here: https://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=TW3TN&osCode=w732&productCode=latitude-e6430&lwp=rt
 
@@ -51,7 +51,7 @@ Once you have the correct BIOS version, go to the BIOS by using the `F12` key at
 ## Creating the USB Installer
 
 You will need a 16+ GB USB, a Mac and an internet connection to download the Mojave Installer.
-Open the AppStore, search for "macOS Mojave", download the app.
+Open the App Store, search for "Mojave", download it.
 
 While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Extended (Journaled) and rename your USB stick to "USB" (just to be easier). Once the download is done, open the Terminal and write:
 
@@ -62,10 +62,11 @@ It will copy the installer to your USB Stick and make it bootable. It can take s
 ### Install Clover on the USB Installer
 
 Once we have a USB Installer, we need to install Clover on it, with our `config.plist` file and the needed kexts for our laptop. Here are the steps:
+
 * Download Clover: https://github.com/Dids/clover-builder/releases
 * Start the Clover installation app
-* Make sure to select your USB as the destination during the installation. We also want to Customize the install so click on "Customize"
-* Pick these items in the customize lists:
+* Make sure to select your USB Stick as the destination during the installation. We also want to Customize the installation so click on "Customize"
+* Check these items in the customize lists:
     - Install for UEFI booting only
     - Install Clover in the ESP
     - Drivers64UEFI\DataHubDxe-64
@@ -79,13 +80,13 @@ Once we have a USB Installer, we need to install Clover on it, with our `config.
 
 ### Copy my EFI Folder
 
-Download my EFI Folder from this repo and copy it (replace, not merge) to your USB Installer existing EFI Folder. It will replace your EFI folder that was created by Clover during the installation and copy all the necessary kext files and my `config.plist` file as well.
+Download my EFI Folder from this repo and copy it (replace, not merge) to your USB Installer existing EFI Folder. It will replace your EFI folder that was created by Clover during the installation, copy all the necessary kext files and my `config.plist` file as well.
 
-## Install macOS Mojave
+## macOS Mojave Installation
 
-Reboot your Laptop with the USB Installer stick plugged in, press `F12`, choose `UEFI`, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
+Reboot your Laptop with the USB Installer stick plugged in. Press `F12`, choose `UEFI`, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
 
-Once you reach the Mojave Installer, run the Disk Utility, and in the menubar, in the "presentation" menu (or similar, don't remember the name), enable "Show all devices". That way, we will see our internal hard drive completely in Disk Utility. Format it as Mac OS X Extended (Journaled) and pick the scheme "GUID Partition Map" or similar.
+Once you reach the Mojave Installer, launch the Disk Utility app and in the menubar, in the "presentation" menu (or similar, don't remember the name), enable "Show all devices". That way, we will see our internal hard drive completely in Disk Utility. Format it as Mac OS X Extended (Journaled) and pick the scheme "GUID Partition Map" or similar.
 
 Now close the Disk Utility and start the Installer.
 
@@ -105,7 +106,7 @@ It will output some table with the following structure "Product | Serial | Board
 
 ### Internet
 
-You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace the internal card to a compatible one. You can find plenty on eBay. Otherwise, the cheaper and quicker solution is to use a USB Dongle WIFI. I use the [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/). Once you have plugged it in one of your USB ports, install the drivers, you can find them on their website for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
+You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace the internal card with a compatible one. You can find plenty of them on eBay. Otherwise, the cheaper and quicker solution is to use a USB Dongle WIFI. I own a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) and it works great. Once you have plugged it in one of your USB ports, install the drivers. You can find them for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
 
 ## Benchmarks
 
