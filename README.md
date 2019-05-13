@@ -67,7 +67,7 @@ Once we have a USB Installer, we need to install Clover on it, with our `config.
 * Download Clover: https://github.com/Dids/clover-builder/releases
 * Start the Clover installation app
 * Make sure to select your USB Stick as the destination during the installation. We also want to Customize the installation so click on "Customize"
-* Check these items in the customize lists:
+* Check these items in the customize list:
     - Install for UEFI booting only
     - Install Clover in the ESP
     - Drivers64UEFI\DataHubDxe-64
