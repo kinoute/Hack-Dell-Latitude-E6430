@@ -16,8 +16,8 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 
 **Note:** My model doesn't have a Nvidia Card. If you have one, my instructions might not work correctly.
 
+### What works
 
-### What works:
 * Sound (in and out)
 * Trackpad with gestures
 * USB Ports (including USB3 on the right)
@@ -29,6 +29,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * Battery percentage/status
 
 ### Doesn't work natively / Not tested
+
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
 * Bluetooth
 * SD Card Reader (not tested)
