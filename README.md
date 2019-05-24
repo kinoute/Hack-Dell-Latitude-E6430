@@ -30,7 +30,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 
 ### Doesn't work natively / Not tested
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
-* Bluetooth
+* Bluetooth (not tested)
 * SD Card Reader (not tested)
 * HDMI/VGA out (not tested)
 
