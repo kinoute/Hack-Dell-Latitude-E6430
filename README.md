@@ -16,7 +16,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 
 **Note:** My model doesn't have a Nvidia Card. If you have one, my instructions might not work correctly.
 
-**Note2:** For models with 1600x900 monitor, please see #[#1](/../../issues/1).
+**Note2:** For models with 1600x900 monitor, please see [#1](/../../issues/1).
 
 ### What works
 
