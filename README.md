@@ -25,11 +25,11 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * Webcam (tested with Photobooth)
 * LAN/Ethernet
 * Fn keys to change volume or brightness
-* Sleep/Wake-up
 * Battery percentage/status
 
 ### Doesn't work natively / Not tested
 
+* Sleep/Wake-up (gets a black screen, have to reboot)
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
 * Bluetooth (not tested)
 * SD Card Reader (not tested)
