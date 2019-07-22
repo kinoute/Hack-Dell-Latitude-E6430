@@ -37,6 +37,10 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * SD Card Reader (not tested)
 * HDMI/VGA out (not tested)
 
+### Second HDD in the Optical Drive
+
+If you have a second HDD installed in the optical drive, you might need to include a patch to be able to use it. See [this message](https://github.com/kinoute/Hack-Dell-Latitude-E6430/issues/3) from [@mikenzb](https://github.com/mikenzb) to fix it.
+
 ## BIOS
 
 ### Flashing your BIOS
