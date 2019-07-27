@@ -6,7 +6,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 
 ## Laptop Specs
 
-* macOS Mojave 10.4.5
+* macOS Mojave 10.4.6
 * Intel Core i5-3320M 2.6Ghz Turbo 3.3Ghz (2 cores, 4 threads)
 * Crucial Ballistix Sport 16GB DDR3-RAM @ 1600 Mhz (BLS8G3N169ES4.16FE)
 * Intel HD Graphics 4000 1536 Mb
