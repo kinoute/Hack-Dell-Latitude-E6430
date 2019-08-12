@@ -83,10 +83,14 @@
 			<dict>
 				<key>FixRegions</key>
 				<true/>
+				<key>FixShutdown</key>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT-NVOff.aml</string>
 			<key>ReuseFFFF</key>
+			<false/>
+			<key>SlpSmiAtWake</key>
 			<false/>
 		</dict>
 		<key>Debug</key>
@@ -181,7 +185,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>slide=0 darkwake=0</string>
+		<string>slide=0 darkwake=8 alcid=12</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -325,6 +329,8 @@
 		<dict>
 			<key>#Inject</key>
 			<string>0x0887</string>
+			<key>Inject</key>
+			<string>No</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -1029,6 +1035,22 @@
 				<key>Replace</key>
 				<data>
 				g+M/0+NBCd8=
+				</data>
+			</dict>
+			<dict>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QGACAA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
 				</data>
 			</dict>
 		</array>
