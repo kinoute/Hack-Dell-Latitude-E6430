@@ -87,7 +87,7 @@
 				<false/>
 			</dict>
 			<key>Name</key>
-			<string>DSDT-NVOff.aml</string>
+			<string>DSDT.aml</string>
 			<key>ReuseFFFF</key>
 			<false/>
 			<key>SlpSmiAtWake</key>
