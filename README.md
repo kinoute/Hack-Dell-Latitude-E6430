@@ -28,7 +28,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * LAN/Ethernet
 * Fn keys to change volume or brightness
 * Battery percentage/status
-* Sleep/Wake-up (thanks @Tuan9304, see #1)
+* Sleep/Wake-up (thanks [@Tuan9304](https://github.com/Tuan9304), see [#1](/../../issues/#1)
 
 ### Doesn't work natively / Not tested
 
