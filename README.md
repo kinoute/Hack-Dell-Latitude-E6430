@@ -30,12 +30,13 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * Battery percentage/status
 * Sleep/Wake-up (thanks [@Tuan9304](https://github.com/Tuan9304), see [#2](/../../issues/#2))
 * SD Card Reader
+* HDMI Out
 
 ### Doesn't work natively / Not tested
 
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
 * Bluetooth (not tested)
-* HDMI/VGA out (not tested)
+* VGA out (not tested)
 
 ### Second HDD in the Optical Drive
 
