@@ -71,7 +71,10 @@ It will copy the installer to your USB Stick and make it bootable. It can take s
 
 Once we have a USB Installer, we need to install Clover on it, with our `config.plist` file and the needed kexts for our laptop. Here are the steps:
 
-* Download Clover: https://github.com/Dids/clover-builder/releases
+* Download Clover **r4945**: https://sourceforge.net/projects/cloverefiboot/files/Installer/
+
+Why this "old" version? Because Clover recently changed their folders structure and my EFI is not compatible with it right now. Do not install Clover above **r4945** version or it will not work at the moment.
+
 * Start the Clover-Minimal installation app
 * Make sure to select your USB Stick as the destination during the installation. We also want to Customize the installation so click on "Customize"
 * Check these items in the customize list:
