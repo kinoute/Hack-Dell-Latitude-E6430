@@ -61,7 +61,9 @@ Once you have the correct BIOS version, go to the BIOS by using the `F12` key at
 You will need a 16+ GB USB, a Mac and an internet connection to download the Mojave Installer.
 Open the App Store, search for "Mojave", download it.
 
-While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Extended (Journaled) and rename your USB stick to "USB" (just to be easier). Once the download is done, open the Terminal and write:
+While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Extended (Journaled) and rename your USB stick to "USB" (just to be easier). Don't forget to change before the partition table to `GPT` when formatting the USB Stick. Every USB comes with `MBR` partition by default because it's the most compatible one for external medias. But we want a `GPT` partition. So in Disk Utility, enable the "Show All Devices Option" in the menu (it's in the "Presentation" or "View" menu). Select your USB Stick and erase the whole USB with `GPT` option selected.
+
+Once the download is done, open the Terminal and write:
 
 `sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB`
 
