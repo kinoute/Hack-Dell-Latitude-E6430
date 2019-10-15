@@ -34,6 +34,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 ### Doesn't work natively / Not tested
 
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
+* Line Out after waking up (speakers still work though, see [#2](/../../issues/#2))
 * Bluetooth (not tested)
 * HDMI/VGA out (not tested)
 
@@ -70,20 +71,20 @@ It will copy the installer to your USB Stick and make it bootable. It can take s
 
 Once we have a USB Installer, we need to install Clover on it, with our `config.plist` file and the needed kexts for our laptop. Here are the steps:
 
-* Download Clover: https://github.com/Dids/clover-builder/releases
+* Download Clover: https://github.com/Dids/clover-builder/releases. I'm running the **r5070** version.
 * Start the Clover-Minimal installation app
 * Make sure to select your USB Stick as the destination during the installation. We also want to Customize the installation so click on "Customize"
 * Check these items in the customize list:
     - Install for UEFI booting only
     - Install Clover in the ESP
-    - Drivers64UEFI\DataHubDxe-64
-    - Drivers64UEFI\FSInject-64
-    - Drivers64UEFI\SMCHelper-64
-    - Drivers64UEFI\ApfsDriverLoader-64
-    - Drivers64UEFI\AptioMemoryFix-64
-    - Drivers64UEFI\PartitionDxe-64
-    - Drivers64UEFI\EnglishDxe-64
-    - Drivers64UEFI\Fat-64
+    - drivers/UEFI/DataHubDxe-64
+    - drivers/UEFI/FSInject-64
+    - drivers/UEFI/SMCHelper-64
+    - drivers/UEFI/ApfsDriverLoader-64
+    - drivers/UEFI/AptioMemoryFix-64
+    - drivers/UEFI/PartitionDxe-64
+    - drivers/UEFI/EnglishDxe-64
+    - drivers/UEFI/Fat-64
 
 ### Copy my EFI Folder
 
