@@ -30,13 +30,14 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * Battery percentage/status
 * Sleep/Wake-up (thanks [@Tuan9304](https://github.com/Tuan9304), see [#2](/../../issues/#2))
 * SD Card Reader
+* HDMI Out
 
 ### Doesn't work natively / Not tested
 
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
 * Line Out after waking up (speakers still work though, see [#2](/../../issues/#2))
 * Bluetooth (not tested)
-* HDMI/VGA out (not tested)
+* VGA out (not tested)
 
 ### Second HDD in the Optical Drive
 
@@ -61,7 +62,9 @@ Once you have the correct BIOS version, go to the BIOS by using the `F12` key at
 You will need a 16+ GB USB, a Mac and an internet connection to download the Mojave Installer.
 Open the App Store, search for "Mojave", download it.
 
-While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Extended (Journaled) and rename your USB stick to "USB" (just to be easier). Once the download is done, open the Terminal and write:
+While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Extended (Journaled) and rename your USB stick to "USB" (just to be easier). Don't forget to change before the partition table to `GPT` when formatting the USB Stick. Every USB comes with `MBR` partition by default because it's the most compatible one for external medias. But we want a `GPT` partition. So in Disk Utility, enable the "Show All Devices Option" in the menu (it's in the "Presentation" or "View" menu). Select your USB Stick and erase the whole USB with `GPT` option selected.
+
+Once the download is done, open the Terminal and write:
 
 `sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB`
 
@@ -71,7 +74,7 @@ It will copy the installer to your USB Stick and make it bootable. It can take s
 
 Once we have a USB Installer, we need to install Clover on it, with our `config.plist` file and the needed kexts for our laptop. Here are the steps:
 
-* Download Clover: https://github.com/Dids/clover-builder/releases. I'm running the **r5070** version.
+* Download Clover **5070**: https://sourceforge.net/projects/cloverefiboot/files/Installer/
 * Start the Clover-Minimal installation app
 * Make sure to select your USB Stick as the destination during the installation. We also want to Customize the installation so click on "Customize"
 * Check these items in the customize list:
