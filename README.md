@@ -37,7 +37,7 @@ I have already a [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400)
 * Wifi (need to change internal card) ; I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop
 * Line Out after waking up (speakers still work though, see [#2](/../../issues/#2))
 * Bluetooth (not tested)
-* VGA out (not tested)
+* VGA out (not tested but according to some users it can work)
 
 ### Second HDD in the Optical Drive
 
